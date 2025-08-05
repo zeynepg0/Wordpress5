@@ -8,3 +8,40 @@
  License:    GPLv2 or later
  Text Domain: haber-temasi
 */
+
+
+/* Genel gövde ve yazı renkleri */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    color: #333;
+}
+
+/* Header arkaplanını kırmızı yapalım */
+.site-header {
+    background-color: #b30000; /* kırmızı */
+    color: #fff;
+    padding: 20px;
+}
+
+/* Banner alanı */
+.banner-area {
+    width: 100%;
+    background-color: #f2f2f2; /* banner alanı için açık gri örneği */
+    text-align: center;
+    padding: 15px;
+}
+
+.banner-area img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Logo ve menünün banner'ın altında düzgün görünmesi */
+.site-header .logo,
+.site-header .main-navigation {
+    margin-top: 15px;
+}
+
