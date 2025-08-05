@@ -12,9 +12,11 @@ function haber_temasi_setup() {
     add_theme_support( 'html5', array( 'search-form', 'comment-form', 'comment-list', 'gallery', 'caption' ) );
 
     register_nav_menus( array(
-        'primary' => __( 'Ana Menü', 'haber-temasi' ),
-        'footer'  => __( 'Alt Menü', 'haber-temasi' ),
-    ) );
+    'primary'      => __( 'Ana Menü', 'haber-temasi' ),
+    'footer'       => __( 'Alt Menü', 'haber-temasi' ),
+    'mobile-menu'  => __( 'Mobil Menü', 'haber-temasi' ),
+) );
+
 }
 add_action( 'after_setup_theme', 'haber_temasi_setup' );
 
@@ -38,3 +40,4 @@ function haber_temasi_scripts() {
     // wp_enqueue_script( 'haber-temasi-script', get_template_directory_uri() . '/js/main.js', array(), '1.0', true );
 }
 add_action( 'wp_enqueue_scripts', 'haber_temasi_scripts' );
+
