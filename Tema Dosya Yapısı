@@ -1,0 +1,12 @@
+haber-temasi/
+├── style.css
+├── functions.php
+├── index.php
+├── single.php
+├── header.php
+├── footer.php
+├── sidebar.php
+├── archive.php
+├── category.php
+└── inc/
+    └── customizer.php (opsiyonel)
