@@ -44,4 +44,125 @@ body {
 .site-header .main-navigation {
     margin-top: 15px;
 }
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    color: #333;
+}
+
+/* Header arkaplanını kırmızı yapalım */
+.site-header {
+    background-color: #b30000; /* kırmızı */
+    color: #fff;
+    padding: 20px;
+}
+
+/* Banner alanı */
+.banner-area {
+    width: 100%;
+    background-color: #f2f2f2; /* banner alanı için açık gri örneği */
+    text-align: center;
+    padding: 15px;
+}
+
+.banner-area img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Logo ve menünün banner'ın altında düzgün görünmesi */
+.site-header .logo,
+.site-header .main-navigation {
+    margin-top: 15px;
+}
+
+/* ============================= */
+/* Menü (Navigasyon) Stili      */
+/* ============================= */
+.main-navigation {
+    background-color: #990000;
+    padding: 10px 0;
+}
+
+.main-navigation ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.main-navigation ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.main-navigation ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 12px;
+    transition: background-color 0.3s ease;
+}
+
+.main-navigation ul li a:hover {
+    background-color: #cc0000;
+    border-radius: 4px;
+}
+
+/* ============================= */
+/* Sidebar (Yan Panel) Stili     */
+/* ============================= */
+.sidebar {
+    width: 300px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    float: right;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.sidebar .widget {
+    margin-bottom: 30px;
+}
+
+.sidebar .widget-title {
+    font-size: 18px;
+    font-weight: bold;
+    border-bottom: 2px solid #b30000;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.sidebar .widget ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar .widget ul li {
+    margin-bottom: 8px;
+}
+
+.sidebar .widget ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.sidebar .widget ul li a:hover {
+    color: #b30000;
+}
+
+/* İçerik ve sidebar hizalaması için basit grid */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+}
+
 
